@@ -1,0 +1,36 @@
+{
+  "name": "build-xcodebuild",
+  "version": "0.0.0",
+  "description": "Runs Xcodebuild",
+  "repository": "https://github.com/AtomBuild/build-xcodebuild",
+  "license": "MIT",
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "versions": {
+        "1.0.0": "provideBuilder"
+      }
+    }
+  },
+  "dependencies": {
+    "glob": "^6.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.10.1",
+    "eslint-config-atom-build": "^1.0.0"
+  },
+  "keywords": [
+    "build",
+    "compile",
+    "xcode",
+    "ios",
+    "os x",
+    "objective-c",
+    "swift",
+    "productivity"
+  ],
+  "main": "lib/main.js"
+}
