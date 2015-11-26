@@ -1,6 +1,6 @@
 {
   "name": "build-xcodebuild",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Runs Xcodebuild",
   "repository": "https://github.com/AtomBuild/build-xcodebuild",
   "license": "MIT",
